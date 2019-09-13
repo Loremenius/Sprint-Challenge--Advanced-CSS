@@ -1,1 +1,27 @@
-// Navigation code here
+// Navigation code 
+.navParentContainer{
+    position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+.navigation{
+    background-color: rgba(246, 246, 246, 0.5);
+    .displayFlex(column,center,center);
+    border-bottom: 2px solid #F1F1F1;
+    h1{
+        padding: 15px;
+        font-size: 4rem;
+    }
+    nav{
+        padding-bottom: 10px;
+        width:20%;
+        .displayFlex(row,space-between,flex-start);
+        a{
+        text-decoration: none;
+        color:@nav-font;
+        font-size: 1.6rem;
+        }
+    }
+}
